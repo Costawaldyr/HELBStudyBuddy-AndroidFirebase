@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    match /users/{userId} {
+      // Permettre la lecture de tous les profils pour le matching
+      allow read: if isSignedIn();
+      // Seul le propriétaire peut modifier son profil
+      allow write: if isSignedIn() && request.auth.uid == userId;
+      
+      match /buddies/{buddyId} {
+        // Les buddies sont personnels
+        allow read, write: if isSignedIn() && request.auth.uid == userId;
+      }
+    }
+
+    match /matches/{matchId} {
+      // Les matchs doivent être accessibles par les participants
+      allow read, write: if isSignedIn();
+        
+      match /messages/{messageId} {
+        allow read, write: if isSignedIn();
+      }
+    }
+  }
+}

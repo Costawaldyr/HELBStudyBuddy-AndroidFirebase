@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Tag IDs used by helper utilities to attach state to a view without
+        clashing with auto-generated layout IDs.
+    -->
+    <item name="avatar_loader_tag" type="id" />
+</resources>

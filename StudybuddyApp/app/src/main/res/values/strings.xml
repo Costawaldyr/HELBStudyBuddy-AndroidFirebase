@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">StudyBuddy</string>
+    <string name="app_name2">StudyBuddy</string>
+    <!-- Navigation -->
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_find">Matches</string>
+    <string name="my_buddies">My Buddies</string>
+    <string name="your_study_partners">Your study partners</string>
+    <string name="tab_ia_buddies">IA Buddies</string>
+    <string name="tab_matches_24h">Matches (24h)</string>
+
+    <!-- Welcome -->
+    <string name="join_studybuddy">Join StudyBuddy today</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="privacy">Privacy</string>
+    <string name="share_location">Share my location</string>
+    <string name="appearance">Appearance</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="french">French</string>
+    <string name="english">English</string>
+    <string name="dutch">Dutch</string>
+    <string name="error_loading_settings">Error loading settings</string>
+    <string name="language_changed">Language changed</string>
+
+    <!-- Match logic and others... -->
+    <string name="match_found_title">New Match!</string>
+    <string name="match_found_message">You have a new potential study partner.</string>
+    <string name="accept_match">Accept</string>
+    <string name="decline_match">Decline</string>
+    <string name="no_matches_found">No matches found yet.</string>
+    <string name="active_match">Active Match</string>
+    <string name="hours_remaining">%1$s remaining</string>
+    <string name="chat_button">Chat</string>
+    <string name="study_partners_title">Your study partners</string>
+    <string name="studying_subject">Studying: %1$s</string>
+    <string name="location_time_ago">%1$s · %2$s ago</string>
+    <string name="specialized_subject">Specialized: %1$s</string>
+
+    <!-- Match and Social -->
+    <string name="student_default_name">Student</string>
+    <string name="etudiant_default">Student</string>
+    <string name="incoming_match_message">%1$s wants to study %2$s with you!</string>
+    <string name="new_buddy_title">New Buddy!</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="match_accepted">Match accepted!</string>
+    <string name="no_candidates_found">No candidates found.</string>
+    <string name="no_partner_found">No partner found.</string>
+    <string name="error_searching_matches">Error searching for matches.</string>
+    <string name="match_candidate_description">%1$s wants to study %2$s.</string>
+    <string name="match_candidate_description_with_school">%1$s from %2$s wants to study %3$s.</string>
+    <string name="this_subject">this subject</string>
+    <string name="match_proposal_message">Do you want to study %1$s with %2$s?</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="yes_contact">Yes, contact</string>
+    <string name="buddy_found_title">Buddy found!</string>
+    <string name="candidate_name_placeholder">Name</string>
+    <string name="candidate_description_placeholder">Description</string>
+    <string name="candidate_no">No</string>
+    <string name="candidate_yes">Yes</string>
+
+    <!-- Dashboard and Stats -->
+    <string name="stat_buddies_label">Buddies</string>
+    <string name="stat_matches_label">Matches</string>
+    <string name="stat_streak_label">Streak</string>
+    <string name="recent_notifications">Recent Notifications</string>
+    <string name="no_notifications">No notifications</string>
+    <string name="clear_all">Clear all</string>
+    <string name="refresh">Refresh</string>
+    <string name="up_to_date">You are up to date!</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="motivation_default_quote">Stay focused and reach your goals.</string>
+    <string name="dashboard_ready_session">Ready for a session?</string>
+    <string name="dashboard_loading_motivation">Loading motivation...</string>
+    <string name="dashboard_ai_buddies">AI Buddies</string>
+    <string name="dashboard_see_all">See all</string>
+    <string name="dashboard_new">New</string>
+    <string name="dashboard_potential_partners">Potential Partners</string>
+    <string name="dashboard_searching_partners">Searching for partners...</string>
+    <string name="dashboard_my_matches_24h">My matches (24h)</string>
+    <string name="dashboard_no_matches">No matches yet</string>
+    <string name="dashboard_find_partner">Find a partner</string>
+
+    <!-- Pomodoro -->
+    <string name="pomodoro_session">Pomodoro Session</string>
+    <string name="pomodoro_start">Start</string>
+    <string name="pomodoro_reset">Reset</string>
+    <string name="pomodoro_pause">Pause</string>
+    <string name="pomodoro_resume">Resume</string>
+    <string name="session_finished">Session finished!</string>
+    <string name="session_finished_notif">Great job! Your study session is complete.</string>
+
+    <!-- Profile and Buddy Creation -->
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update">Update</string>
+    <string name="buddy_name_label">Buddy Name</string>
+    <string name="buddy_name_hint">Ex: Algo Bot, Java Master, DB Expert...</string>
+    <string name="course_label">Course (Bac 2 HELB)</string>
+    <string name="choose_course_hint">Choose a course — your buddy will be an expert in this subject</string>
+    <string name="specialty_none">Specialty: none selected</string>
+    <string name="select_course_for_role">Select a course to see the buddy\'s role...</string>
+    <string name="create_my_ai_buddy">Create my AI Buddy</string>
+    <string name="my_buddy_default">My Buddy</string>
+    <string name="give_buddy_name_error">Give your buddy a name</string>
+    <string name="select_course_error">Select a course</string>
+    <string name="buddy_system_prompt_template">You are %1$s, an expert study partner in %2$s.</string>
+    <string name="error_updating_buddy">Error updating buddy</string>
+    <string name="error_creating_buddy">Error creating buddy</string>
+    <string name="createBuddy">Create Buddy</string>
+
+    <!-- Login and Auth -->
+    <string name="welcome_student">Welcome Student</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="access">Access</string>
+    <string name="or_text">OR</string>
+    <string name="google_sign_in_failed">Google sign in failed: </string>
+    <string name="welcome_toast">Welcome to StudyBuddy!</string>
+    <string name="welcome_back_toast">Welcome back!</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="incorrect_credentials">Incorrect credentials</string>
+    <string name="account_not_found">Account not found</string>
+    <string name="account_disabled">Account disabled</string>
+    <string name="user_not_found">User not found</string>
+    <string name="email_already_in_use">Email already in use</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="too_many_attempts">Too many attempts, try again later</string>
+    <string name="app_check_error">App Check error</string>
+    <string name="login_failed">Login failed: </string>
+
+    <!-- Register -->
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_here">Login here</string>
+    <string name="your_subjects">Your Subjects</string>
+    <string name="register_step_2_hint">Choose the subjects you can help with or need help in.</string>
+    <string name="start">Start</string>
+
+    <!-- Map -->
+    <string name="map_title">Study Spots</string>
+    <string name="map_recenter">Recenter</string>
+    <string name="map_spot_name_placeholder">Spot Name</string>
+    <string name="map_address_placeholder">Address</string>
+    <string name="map_go_directions">Directions</string>
+    <string name="map_my_location">My Location</string>
+
+    <!-- AI Buddy Chat -->
+    <string name="online_status">Online</string>
+    <string name="buddy_opening_message">Hello! I am %1$s, how can I help you today?</string>
+    <string name="message_to_buddy_hint">Message to your Buddy...</string>
+    <string name="connection_error">Connection error</string>
+    <string name="claude_overloaded">Service overloaded, please try again later.</string>
+    <string name="understanding_problem">I had a problem understanding your request.</string>
+    <string name="chat_student">Student Chat</string>
+    <string name="chat_calculating">Calculating...</string>
+    <string name="chat_online">Online</string>
+    <string name="chat_banner_text">Study Group</string>
+    <string name="chat_message_hint">Type a message...</string>
+
+    <!-- Chat Map (context-aware map opened from a chat) -->
+    <string name="action_back">Back</string>
+    <string name="chat_map_title">Study locations</string>
+    <string name="chat_map_loading">Loading study locations…</string>
+    <string name="chat_map_no_participants">No participants to show</string>
+    <string name="chat_map_no_locations">No study location shared yet — set yours from the profile screen</string>
+    <string name="chat_map_one_location">1 study location shared</string>
+    <string name="chat_map_n_locations">%1$d study locations shared</string>
+    <string name="chat_map_unknown_student">Student</string>
+    <string name="chat_map_button_cd">Show study locations on the map</string>
+
+    <!-- Notifications -->
+    <string name="settings_test_notification">Send a test notification</string>
+    <string name="settings_test_notification_scheduled">Notification scheduled — pull down the status bar.</string>
+
+    <!-- Match status -->
+    <string name="match_status_active">ACTIVE</string>
+    <string name="match_status_expired">EXPIRED</string>
+    <string name="match_chat_unavailable">This chat has expired</string>
+</resources>

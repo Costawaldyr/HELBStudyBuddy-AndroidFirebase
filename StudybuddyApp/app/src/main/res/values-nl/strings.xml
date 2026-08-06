@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Studybuddy</string>
+    <string name="settings_title">Instellingen</string>
+    <string name="notifications">Meldingen</string>
+    <string name="enable_notifications">Meldingen inschakelen</string>
+    <string name="sound">Geluid</string>
+    <string name="vibration">Trillen</string>
+    <string name="privacy">Privacy</string>
+    <string name="share_location">Mijn locatie delen</string>
+    <string name="appearance">Uiterlijk</string>
+    <string name="dark_mode">Donkere modus</string>
+    <string name="language">Taal</string>
+    <string name="choose_language">Kies taal</string>
+    <string name="french">Frans</string>
+    <string name="english">Engels</string>
+    <string name="dutch">Nederlands</string>
+    <string name="error_loading_settings">Fout bij het laden van instellingen</string>
+    <string name="language_changed">Taal gewijzigd</string>
+</resources>

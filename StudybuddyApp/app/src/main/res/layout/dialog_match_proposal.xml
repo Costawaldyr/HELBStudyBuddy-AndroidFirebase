@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#1a1a3e"
+        android:lineSpacingExtra="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le chat expirera automatiquement dans 24h"
+        android:textSize="12sp"
+        android:textColor="#FF6B35"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_timer"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>

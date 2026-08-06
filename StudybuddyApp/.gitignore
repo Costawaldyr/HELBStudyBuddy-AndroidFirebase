@@ -1,0 +1,23 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+
+# Local configuration
+local.properties
+*.env
+
+# Build outputs
+/build/
+/captures/
+/externalNativeBuild/
+/.cxx/
+
+# macOS
+.DS_Store
+
+# Android
+*.apk
+google-services.json

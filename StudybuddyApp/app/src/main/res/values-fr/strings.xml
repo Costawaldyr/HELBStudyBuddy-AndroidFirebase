@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Studybuddy</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Activer les notifications</string>
+    <string name="sound">Son</string>
+    <string name="vibration">Vibration</string>
+    <string name="privacy">Confidentialité</string>
+    <string name="share_location">Partager ma localisation</string>
+    <string name="appearance">Apparence</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="language">Langue</string>
+    <string name="choose_language">Choisir la langue</string>
+    <string name="french">Français</string>
+    <string name="english">Anglais</string>
+    <string name="dutch">Néerlandais</string>
+    <string name="error_loading_settings">Erreur chargement des paramètres</string>
+    <string name="language_changed">Langue changée</string>
+</resources>
